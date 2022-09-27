@@ -13,3 +13,11 @@ Reversestring class is to demonstrate reversing a string using single for loop a
 Immutableclass is to demonstarte immutable class as well as immutable members of that class using final and private keywords.
 
 Regex Class is to demonstrate regular expressions and also to match these expressions and also in this class switch case is used.
+
+Try Class contains a simple try catch block if Exception is there it will handle
+
+TryFinally Contains a finally block where finally block will Execute 
+
+TryNestedTry contains a try block inside a try block then catch block and then another catch block
+
+CustomClass contains a extends class where we can write our custom code for InvalidAgeExceptio it contian a Age Exception 
