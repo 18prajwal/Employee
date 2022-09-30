@@ -36,14 +36,14 @@ class MyLisnkedList {
     }
 }
 
-class Main{
+class MyLinkedList_1{
     public static void main(String[] args) {
       MyLisnkedList list=new MyLisnkedList();
       list.add(10);
       list.add(1000);
       list.add(9287);
       list.Display();
-        //System.out.println(list.get(02));
+       
     }
 }
 
