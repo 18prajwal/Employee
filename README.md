@@ -21,3 +21,13 @@ TryFinally Contains a finally block where finally block will Execute
 TryNestedTry contains a try block inside a try block then catch block and then another catch block
 
 CustomClass contains a extends class where we can write our custom code for InvalidAgeExceptio it contian a Age Exception 
+
+MyLinkedList class is to demonstrate user defined Linked List class which adds and creates links one node to another and displays the linked list.
+
+DemoList class is to demonstrate the properties of List by adding Integer values. It allows multiple null or duplicate values
+
+DemoSet class is to demonstrate the properties of HashSet. Doesn't allow multiple values.
+
+DemoLinkedHashSet class is to demonstrate the properties of LinkedHashSet. Maximum one null value.
+
+DemoTreeSet class is to demonstrate the properties of TreeSet. Doesn't allow null value.
