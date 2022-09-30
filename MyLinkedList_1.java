@@ -1,38 +1,49 @@
+import java.util.ArrayList;
+
 class Node{
     int data;
     Node nextNode;
+
     Node(int data){
         this.data=data;
         this.nextNode=null;
     }
 }
-
-class MyLinkedList{
+class MyLisnkedList {
+    Node head;
     Node add(int data){
         Node newNode=new Node(data);
+        if(head==null){
+            head=newNode;
+        }
+        else{
+            Node lastNode=head;
+            while (lastNode.nextNode!=null){
+                lastNode=lastNode.nextNode;
+            }
+            lastNode.nextNode=newNode;
+        }
         return newNode;
-
     }
-    int lastdata(Node n){
-        int n0=n.nextNode.nextNode.data;
-        return n0;
+    void Display(){
+        Node presentNode=head;
+        while(presentNode.nextNode!=null){
+            System.out.print(presentNode.data + "--> ");
+            presentNode=presentNode.nextNode;
+        }
+        System.out.println(presentNode.data);
+
     }
 }
 
-
-public class MyLinkedList_1{
+class Main{
     public static void main(String[] args) {
-        System.out.println("LinkedLists");
-        MyLinkedList obj1=new MyLinkedList();
-        Node n1=obj1.add(5);
-        Node n2=obj1.add(7);
-        Node n3=obj1.add(9);
-        Node n4= obj1.add(11);
-        n1.nextNode=n2;
-        n2.nextNode=n3;
-        n3.nextNode=n4;
-       int ld= obj1.lastdata(n1);
-        System.out.println(ld);
-
+      MyLisnkedList list=new MyLisnkedList();
+      list.add(10);
+      list.add(1000);
+      list.add(9287);
+      list.Display();
+        //System.out.println(list.get(02));
     }
 }
+
