@@ -31,3 +31,11 @@ DemoSet class is to demonstrate the properties of HashSet. Doesn't allow multipl
 DemoLinkedHashSet class is to demonstrate the properties of LinkedHashSet. Maximum one null value.
 
 DemoTreeSet class is to demonstrate the properties of TreeSet. Doesn't allow null value.
+
+DuplicateHashMap class contains custom class where duplicate values are added and then they are not showing because of adding equals and hashcode function
+
+HashMap1 class contains Sorted map with the null value
+
+LinkedHashMap1 class contains the unsorted map with maximum one null value
+
+TreeMap1 class contains a sorted map without the null values
