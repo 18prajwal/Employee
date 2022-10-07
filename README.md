@@ -6,7 +6,7 @@ Emp_ride class is to demonstrate method overriding concept using inheritance.
 
 Emp_continue_forEach class is to demonstrate continue statement using for each loop.
 
-Emp_if_switch class is to demonstrate switch condition statement.
+Emp_if_switch class is to demonstrate if else and switch condition statement.
 
 Reversestring class is to demonstrate reversing a string using single for loop and charAt() string method.
 
