@@ -39,3 +39,8 @@ HashMap1 class contains Sorted map with the null value
 LinkedHashMap1 class contains the unsorted map with maximum one null value
 
 TreeMap1 class contains a sorted map without the null values
+
+FirstThreadProgram class contains a MyThread class which extends from thread and runa function both in main method and thread
+
+ThreadImplementsProgram class contains a MyThread class which implements from Runnable and has run function which will run from class start function of a thread
+
