@@ -44,3 +44,14 @@ FirstThreadProgram class contains a MyThread class which extends from thread and
 
 ThreadImplementsProgram class contains a MyThread class which implements from Runnable and has run function which will run from class start function of a thread
 
+TenTaskTenThread class uses total ten new threads are created for completing ten tasks using extending Thread.
+
+HundredTaskHundredThread class contains creates a hundred new threads for completing the hundred tasks by extending Thread.
+
+HundredTaskAvailProcessor class demonstrate the creation of thread that is depend on the number of processors, For example if a system contains 8 processors it can create 8 threads. This can be achieved by FixedThreadPool.
+
+HundredTaskSingleThread class creates only single thread and all the task are handled by that thread. SingleThreadExecutor Function is used to create the single thread.
+
+HundresTaskCachedThread class utilises the already existing threads which will be idle such that the next tasks are done by the already created threads. 
+
+
