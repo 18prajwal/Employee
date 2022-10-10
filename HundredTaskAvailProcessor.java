@@ -21,6 +21,7 @@ class HundredTaskAvailProcessor {
             MyThread t1 = new MyThread();
             service.execute(t1);
         }
+            service.shutdown();
     }
 
 }
