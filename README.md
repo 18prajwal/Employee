@@ -54,4 +54,4 @@ HundredTaskSingleThread class creates only single thread and all the task are ha
 
 HundresTaskCachedThread class utilises the already existing threads which will be idle such that the next tasks are done by the already created threads. 
 
-
+SchedularExecutor implents Runnable and it schedules the thread.
