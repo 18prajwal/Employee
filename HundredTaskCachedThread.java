@@ -18,14 +18,9 @@ class HundredTaskCachedThread {
 
            MyThread t=new MyThread();
            service.execute(t);
-
-
         }
-
-
+        service.shutdown();
         }
-
-
 }
 
 
