@@ -56,3 +56,8 @@
 
 29.SchedularExecutor implents Runnable and it schedules the thread.
 
+30.WithoutSynchronisationTwoThreads is a class where Tho threads implementing independtly same object at a time and there is no constant output.
+
+31.WithSynchronisationMethod is a class where synchronized keyword is added to the method then only single thread can enter and complete the function and then another thread can enter. In this no two threads can enter at a time.
+
+32.WithSynchronisationBlock is a class where synchronized keyword is added to a particular line not a method so that in that method other functions can be accessed by many threads at a time but in the synchrnized block only single thread can execute at a time.
