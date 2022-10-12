@@ -64,5 +64,10 @@
 
 33.CallableExample class implements Callable with will have call method and a return type.
 
+34.WaitNotifyTwoThread is a class where Two threads will execute two function odd and even respectively but wait for each other to print one by one by communicating by wait and notify.
+
+
+
+
 
 
