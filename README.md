@@ -66,7 +66,7 @@
 
 34.WaitNotifyTwoThread is a class where Two threads will execute two function odd and even respectively but wait for each other to print one by one by communicating by wait and notify.
 
-
+35. Excell project is a folder where the main class starts the two thread and each thread have a task to read from the excel sheet respectively and they are mapped in key value pair where key is the id and the value is the object where the object contains all the data from the excel sheet
 
 
 
